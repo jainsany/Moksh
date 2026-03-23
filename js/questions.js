@@ -1,19 +1,13 @@
 // QUESTIONS
 const QS=[
-  {q:"Largest planet in solar system?",o:["Saturn","Jupiter","Neptune","Uranus"],a:1},
-  {q:"How many sides does a hexagon have?",o:["5","7","6","8"],a:2},
-  {q:"Chemical symbol for water?",o:["WA","HO","H2O","O2H"],a:2},
-  {q:"Which country invented pizza?",o:["France","Greece","Spain","Italy"],a:3},
-  {q:"What is 12 x 12?",o:["124","144","132","148"],a:1},
-  {q:"Approximate speed of light?",o:["3x10^8 m/s","3x10^6 m/s","3x10^4","3x10^10"],a:0},
-  {q:"Who wrote Romeo and Juliet?",o:["Dickens","Tolstoy","Shakespeare","Hemingway"],a:2},
-  {q:"Smallest prime number?",o:["0","1","2","3"],a:2},
-  {q:"Which planet is the Red Planet?",o:["Venus","Mercury","Saturn","Mars"],a:3},
-  {q:"Gas plants absorb from air?",o:["Oxygen","Nitrogen","CO2","Hydrogen"],a:2},
-  {q:"How many continents on Earth?",o:["5","6","8","7"],a:3},
-  {q:"Powerhouse of the cell?",o:["Nucleus","Ribosome","Mitochondria","Vacuole"],a:2},
-  {q:"Capital of France?",o:["Berlin","Madrid","Paris","Rome"],a:2},
-  {q:"Bones in the human body?",o:["196","206","216","226"],a:1},
-  {q:"Boiling point of water in Celsius?",o:["90","95","100","105"],a:2},
+  {q:"जैन धर्म में कुल कितने मूल सिद्धांत है ?",o:["5","6","8","2"],a:1},
+  {q:"जीवों को ना मारना ये कौनसा सिद्धांत हैं ?",o:["अपरिग्रहवाद","अनेकांतवाद","अहिंसा","कोई नहीं"],a:2},
+  {q:"प्रत्येक वस्तु का भिन्न-भिन्न दृष्टि से विचार करना , परखना , देखना।",o:["अनेकांतवाद","स्याद्वाद","अहिंसा","अपरिग्रहवाद"],a:0},
+  {q:"इस सृष्टि को ना ही किसी ने बनाया और ना कोई चलाता है, यह कौनसा सिद्धांत हैं ?",o:["अवतारवाद नहीं","अहिंसा","सृष्टिअकर्तत्व","इसको भगवान चलाते है"],a:2},
+  {q:"हर जीव भगवान बन सकता है , यह कौनसा सिद्धांत है ?",o:["आत्म स्वातंत्र्य","सृष्टिअकर्तत्व","अवतारवाद नहीं","सिर्फ तीर्थंकर मोक्ष जाते है"],a:0},
+  {q:"एक बार मोक्ष जाने के बाद वापस नहीं आते ?",o:["अवतारवाद नहीं","अहिंसा","सृष्टिअकर्तत्व","सिर्फ तीर्थंकर मोक्ष जाते है"],a:0},
+  {q:"कुल कितने तीर्थंकर होते है ?",o:["21","23","24","infinite"],a:2},
+  {q:"महावीर भगवान का कौनसा चिन्ह है ?",o:["Snake","Deer","Lion","Cow"],a:2},
+  {q:"महावीर जयंती के दिन क्या हुआ था ?",o:["भगवान का मोक्ष","भगवान का जन्म","भगवान का आहार","कोई नहीं"],a:1},
 ];
 function pickQ(n){return[...QS].sort(()=>Math.random()-.5).slice(0,n)}
